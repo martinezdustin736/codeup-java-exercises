@@ -5,17 +5,21 @@ public class Bob {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ask a question");
-        String sentence = scanner.nextLine();
-        if(sentence.endsWith("?")){
-            System.out.println("'Sure.'");
-        } else if (sentence.endsWith("!")){
-            System.out.println("'Whoa, chill out!'");
-        } else if (sentence == "") {
-            System.out.println("'Fine. Be that way!'");
-        }else {
-            System.out.println("'Whatever.' ");
-        }
+        String sentence = "";
 
+        while (!sentence.equalsIgnoreCase("QUIT")) {
+                    sentence = scanner.nextLine();
+            if (sentence.endsWith("?")) {
+                System.out.println("'Sure.'");
+            } else if (sentence.endsWith("!")) {
+                System.out.println("'Whoa, chill out!'");
+            } else if (sentence.isEmpty()) {
+                System.out.println("'Fine. Be that way!'");
+            }else if (sentence.equalsIgnoreCase("quit")) {
+                System.out.println("Finally.....");
+            } else {
+                System.out.println("'Whatever.' ");
+            }
+        }
     }
 }
-
