@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class MethodsExercises {
@@ -26,6 +28,7 @@ public class MethodsExercises {
 
 
 
+
     public static int getInteger(int min, int max){
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
@@ -36,6 +39,17 @@ public class MethodsExercises {
         System.out.printf("You entered %s!", input);
         return input;
     }
+
+
+
+//    public static long factorial() {
+//        System.out.println("Enter a number between %s and %s");
+//        Scanner scanner = new Scanner(System.in);
+//        int input = scanner.nextInt();
+//
+//
+//    }
+
 
 
 
@@ -55,6 +69,8 @@ public class MethodsExercises {
 
         System.out.print("Enter a number between 1 and 10: ");
         int userInput = getInteger(1, 10);
+
+//        diceRoll();
 
     }
 }
