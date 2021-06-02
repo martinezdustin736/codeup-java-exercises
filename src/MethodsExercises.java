@@ -4,6 +4,10 @@ public class MethodsExercises {
     public static void main(String[] args) {
         System.out.println(factorial(getInteger(0, 20)));
         diceRoll();
+        System.out.println(add(5,5));
+        System.out.println(subtract(10,5));
+        System.out.println(multiply(5,5));
+        System.out.println(divide(9,3));
     }
 
     public static long add(long num1, long num2) {
