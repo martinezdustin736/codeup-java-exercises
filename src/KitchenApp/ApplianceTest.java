@@ -16,8 +16,8 @@ public class ApplianceTest {
         System.out.println(app1.brandName);
         System.out.println(app1.type);
 
-        System.out.println(app1.isHasIce());
-        sayHello();
+//        System.out.println(app1.isHasIce());
+//        sayHello();
 
     }
 }

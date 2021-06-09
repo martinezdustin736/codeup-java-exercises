@@ -55,12 +55,12 @@ public class Square extends Quadrilateral {
 
 
     @Override
-    public double getPerimeter() {
+    public int getPerimeter() {
         return side * 4;
     }
 
     @Override
-    public double getArea() {
+    public int getArea() {
         return side * side;
     }
 }
