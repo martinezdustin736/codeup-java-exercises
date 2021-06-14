@@ -8,7 +8,7 @@ public class InputTest {
 
         System.out.println(in.getInt());
 
-        System.out.println(in.getInt(0, 100));///// check this out
+//        System.out.println(in.getInt(0, 100));///// check this out
 
         System.out.println(in.yesNo());
 

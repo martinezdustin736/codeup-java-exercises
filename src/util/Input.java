@@ -33,17 +33,17 @@ public class Input {
     }
 
 
-    public int getInt(int min, int max) {
-        System.out.printf("please enter a number between %d and %d%n", min, max);
-        public int getInt(String) {
-            try {
-                return Integer.parseInt(getString("Enter a number"));
-            } catch (NumberFormatException e) {
-                System.err.println("Invalid input, try again.");
-                return getInt();
-            }
-        }
-    }
+//    public int getInt(int min, int max) {
+//        System.out.printf("please enter a number between %d and %d%n", min, max);
+//        public int getInt(String) {
+//            try {
+//                return Integer.parseInt(getString("Enter a number"));
+//            } catch (NumberFormatException e) {
+//                System.err.println("Invalid input, try again.");
+//                return getInt();
+//            }
+//        }
+//    }
 
 
 public double getDouble(double min, double max){
