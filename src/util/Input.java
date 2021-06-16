@@ -28,7 +28,7 @@ public class Input {
         return result;
     }
 
-    public int getInt() {
+    public int getInt(String s) {
         return this.scanner.nextInt();
     }
 
