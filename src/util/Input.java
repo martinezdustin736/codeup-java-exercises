@@ -65,4 +65,5 @@ public double getDouble(double min, double max){
     };
 
 
+
 }
