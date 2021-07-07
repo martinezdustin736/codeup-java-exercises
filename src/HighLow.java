@@ -44,7 +44,7 @@ public class HighLow {
             attempts++;
         }
         if (attempts == tries && guess != answer) {
-            System.out.println("The magic number was: " + answer + ". You have ran out of guesses...");
+            System.out.println("The magic number was: " + answer + ". You have no more guesses...");
         } else {
             System.out.println("Thank you so much for to playing my game! You took " + attempts + " attempts.");
         }
