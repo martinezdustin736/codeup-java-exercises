@@ -7,7 +7,9 @@ public class InputTest2 {
 //
 //        System.out.println(input.getDouble());
 
-        System.out.println(input.yesNo());
+//        System.out.println(input.yesNo());
+
+        System.out.println(input.getDouble(1.0,10.0));
 
     }
 }
