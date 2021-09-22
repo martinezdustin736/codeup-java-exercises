@@ -26,11 +26,11 @@ public class ArraysExercises{
         people[1] = secondPerson;
         people[2] = thirdPerson;
 
-//        Iterate over each person object
-        for(Person person : people){
-//        Utilizing the getName() method from Person class
-            System.out.println(person.getName());
-        }
+////        Iterate over each person object
+//        for(Person person : people){
+////        Utilizing the getName() method from Person class
+//            System.out.println(person.getName());
+//        }
 
         Person fourthPerson = new Person("Steve", 31);
         people = addPerson(people, fourthPerson);
@@ -38,6 +38,7 @@ public class ArraysExercises{
         for(Person person : people){
 //        Utilizing the getName() method from Person class
             System.out.println(person.getName());
+            System.out.println(person.getAge());
         }
 
 
