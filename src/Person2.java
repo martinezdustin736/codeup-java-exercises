@@ -42,7 +42,7 @@ public class Person2 {
 
 
     public static void main(String[] args) {
-        Person person = new Person("Dustin");
+        Person person = new Person("Dustin", 30);
         System.out.println(person.getName());
 
 

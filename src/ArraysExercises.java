@@ -15,9 +15,9 @@ public class ArraysExercises{
 //        System.out.println(numbers);
 
 //        Creating new instances of Person objects from Person class in src folder.
-        Person firstPerson = new Person("David");
-        Person secondPerson = new Person("Jackie");
-        Person thirdPerson = new Person("Winston");
+        Person firstPerson = new Person("David", 23);
+        Person secondPerson = new Person("Jackie", 27);
+        Person thirdPerson = new Person("Winston", 30);
 
 
 //        Creating array containing each person
@@ -32,7 +32,7 @@ public class ArraysExercises{
             System.out.println(person.getName());
         }
 
-        Person fourthPerson = new Person("Steve");
+        Person fourthPerson = new Person("Steve", 31);
         people = addPerson(people, fourthPerson);
 
         for(Person person : people){
