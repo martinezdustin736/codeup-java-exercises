@@ -11,10 +11,14 @@ public class ApplianceTest {
 
 
         Appliance app1 = new Refrigerator("two door", "LG", true);
+        Appliance app2 = new Microwave("Digital", "Samsung");
 
 
         System.out.println(app1.brandName);
         System.out.println(app1.type);
+
+        System.out.println("The brand is "+ app2.brandName);
+        System.out.println("The type is " + app2.type);
 
 //        System.out.println(app1.isHasIce());
 //        sayHello();
