@@ -12,6 +12,7 @@ public class ApplianceTest {
 
         Appliance app1 = new Refrigerator("two door", "LG", true);
         Appliance app2 = new Microwave("Digital", "Samsung");
+        Appliance app3 = new Microwave("Digital", "lg");
 
 
         System.out.println(app1.brandName);
